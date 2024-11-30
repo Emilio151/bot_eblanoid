@@ -23,6 +23,8 @@ def match_ticker(user_query):
     for key in AVAILABLE_CURRENCY:
         if user_query == key or user_query in AVAILABLE_CURRENCY[key]:
             return key
+
+    print(123)
     return None
 
 
